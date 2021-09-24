@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4c3afb-29e6-41e9-bec1-59247b4d3638" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/tan/IMG_4498.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tan/IMG_4740.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tan/IMG_4770.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tan/IMG_4792.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/tan/IMG_4496.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/tan/IMG_4496.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constitution.html" beforeDir="false" afterPath="$PROJECT_DIR$/constitution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact2.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyright-advice.html" beforeDir="false" afterPath="$PROJECT_DIR$/copyright-advice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/fliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/membership-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objectives.html" beforeDir="false" afterPath="$PROJECT_DIR$/objectives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules-and-regulations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules-and-regulations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writing-and-publishing-tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/writing-and-publishing-tips.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +78,7 @@
       <workItem from="1631864527165" duration="2948000" />
       <workItem from="1632122336573" duration="24225000" />
       <workItem from="1632297360548" duration="995000" />
-      <workItem from="1632420265426" duration="4129000" />
+      <workItem from="1632420265426" duration="17989000" />
     </task>
     <servers />
   </component>
