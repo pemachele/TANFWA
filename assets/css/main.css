@@ -2095,7 +2095,7 @@ nav li > a:only-child:before {
 
 .breadcrumb::after {
   content: "";
-  background-color: white;
+  /*background-color: white;*/
   opacity: 0.502;
   position: absolute;
   top: 0;
