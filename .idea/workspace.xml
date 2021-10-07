@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4c3afb-29e6-41e9-bec1-59247b4d3638" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/apply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constitution.html" beforeDir="false" afterPath="$PROJECT_DIR$/constitution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact2.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyright-advice.html" beforeDir="false" afterPath="$PROJECT_DIR$/copyright-advice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/fliers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/membership-benefits.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-benefits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/membership-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mission-and-vision.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission-and-vision.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objectives.html" beforeDir="false" afterPath="$PROJECT_DIR$/objectives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules-and-regulations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules-and-regulations.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +75,7 @@
       <workItem from="1632752520151" duration="3590000" />
       <workItem from="1632924851029" duration="5106000" />
       <workItem from="1633083904874" duration="10671000" />
+      <workItem from="1633598482604" duration="286000" />
     </task>
     <servers />
   </component>
