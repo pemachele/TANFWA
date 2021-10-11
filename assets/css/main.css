@@ -1299,6 +1299,11 @@ nav li > a:only-child:before {
   /* ====================================== */
 .slider .item {
   padding: 270px 0 400px 0;
+  /*height:600px;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items:last;*/
+  /*padding: 20px;*/
   position: relative;
   z-index: 1;
 }
@@ -1308,7 +1313,7 @@ nav li > a:only-child:before {
 }
 
 .slider-bg-2 {
-  background: url("../img/slider2.jpg") no-repeat center center/cover;
+  background: url("../img/tan/IMG_4772.JPG") no-repeat center center/cover;
 }
 
 .slider-bg-3 {
