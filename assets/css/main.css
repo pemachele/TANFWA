@@ -1294,6 +1294,30 @@ nav li > a:only-child:before {
     margin-right: -10px;
   }
 }
+/*============================
+* crumb header style
+/*========================*/
+.breadcrumb-custom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*============================
+* membership card header
+/*========================*/
+ .membership-header-custom{
+   display: flex;
+   justify-content: center;
+   background: #172b44;
+   color: white;
+
+ }
+
+
+
+
 /* ======================================
    *  05. Slider
   /* ====================================== */
