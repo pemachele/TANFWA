@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e4c3afb-29e6-41e9-bec1-59247b4d3638" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constitution.html" beforeDir="false" afterPath="$PROJECT_DIR$/constitution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact2.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copyright-advice.html" beforeDir="false" afterPath="$PROJECT_DIR$/copyright-advice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/fliers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership-benefits.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-benefits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission-and-vision.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission-and-vision.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objectives.html" beforeDir="false" afterPath="$PROJECT_DIR$/objectives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules-and-regulations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules-and-regulations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writing-and-publishing-tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/writing-and-publishing-tips.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +70,7 @@
       <workItem from="1633683066275" duration="4646000" />
       <workItem from="1633754234581" duration="42489000" />
       <workItem from="1634093250289" duration="6706000" />
-      <workItem from="1634100542983" duration="1116000" />
+      <workItem from="1634100542983" duration="2197000" />
     </task>
     <servers />
   </component>
