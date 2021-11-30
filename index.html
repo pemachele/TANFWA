@@ -89,7 +89,7 @@
                                 <li><a href="membership-options.html">Membership Options</a></li>
                                 <li><a href="membership-benefits.html">Membership benefits</a></li>
                                 <li><a href="membership-options.html">Banking details</a></li>
-                                <li><a href="membership-benefits.html">My account</a></li>
+                                <li><a href="signin.html">My account</a></li>
 
                             </ul>
                         </li>
@@ -601,6 +601,31 @@
 <script src="assets/js/jquery.counterup.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/custom.js"></script>
+<!--lazy loading scripts-->
+<script type="text/javascript" src="/assets/js/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+<!--end of lazy loading scripts-->
+
+<script>
+
+    $(".slider-bg-3").Lazy({
+        beforeLoad: function(element) {
+            // called before an elements gets handled
+            console.log('before load')
+        },
+        afterLoad: function(element) {
+            // called after an element was successfully handled
+            console.log('afterload')
+        },
+        onError: function(element) {
+            // called whenever an element could not be handled
+            console.log('error')
+        },
+        onFinishedAll: function() {
+            console.log('finished all')
+            // called once all elements was handled
+        }
+    });
+</script>
 </body>
 
 
