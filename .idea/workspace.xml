@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4c3afb-29e6-41e9-bec1-59247b4d3638" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/tan/RULE AND REGULATION.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/tan/TANFWA CONSTITUTION.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/signin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constitution.html" beforeDir="false" afterPath="$PROJECT_DIR$/constitution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact2.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copyright-advice.html" beforeDir="false" afterPath="$PROJECT_DIR$/copyright-advice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/fliers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission-and-vision.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission-and-vision.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objectives.html" beforeDir="false" afterPath="$PROJECT_DIR$/objectives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules-and-regulations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules-and-regulations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writing-and-publishing-tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/writing-and-publishing-tips.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Profs_testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -95,6 +80,7 @@
       <workItem from="1638294422965" duration="34000" />
       <workItem from="1638328208791" duration="2522000" />
       <workItem from="1638332105097" duration="11912000" />
+      <workItem from="1639378343060" duration="21000" />
     </task>
     <servers />
   </component>
