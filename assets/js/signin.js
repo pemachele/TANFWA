@@ -75,6 +75,10 @@ function send_data() {
 
 }
 
+function handleRegister() {
+    window.location= "https://account.tanfwa.or.tz/application"
+}
+
 
 function handlePortal() {
     if (sessionStorage.getItem('token')) {
