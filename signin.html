@@ -129,65 +129,55 @@
 background: #192836;">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12  col-md-12 breadcrumb-custom">
+            <div class="col-sm-12 col-md-12 breadcrumb-custom">
                 <h1 style="color:#fcb444;">
-                    Apply
+                    MY ACCOUNT
                 </h1>
             </div>
-<!--            <div class="col-sm-6 col-md-6">-->
-<!--                <h2 style="color: #fcb444 "> Are you a Book Writer, Editor, Illustrator,translator-->
-<!--                    Typesetter, Graphic Designer, Publisher?</h2>-->
-<!--            </div>-->
+            <!--            <div class="col-sm-6 col-md-6">-->
+            <!--                <h2 style="color: #fcb444 "> Are you a Book Writer, Editor, Illustrator,translator-->
+            <!--                    Typesetter, Graphic Designer, Publisher?</h2>-->
+            <!--            </div>-->
         </div>
     </div>
 </section>
 <!--========================================================
                         APPLY
 =========================================================-->
-<div class="container mt80">
-    <div class="row">
-        <div class="col">
-            <h2 class="wow fadeInUp title-big" data-wow-delay=".3s">
-                Contact us through
-                <span class="c-red"> +255 733 009 996</span> or <a href="#"
-                                                                   class="link">info@tanfwa.or.tz</a>
-            </h2>
-        </div>
-    </div>
-</div>
 
 <div class="mt80">
     <div class="container-fluid apply-form-padding">
         <div class="row no-gutters">
-            <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s" style="height: 700px">
-                <img src="assets/img/tan/WhatsApp%20Image%202021-09-20%20at%2012.59.21.jpeg" class="h-100 w-100" alt="">
-            </div>
-            <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
-                <div class="apply-form bxw"
-                     style="height: 100%; display: flex; flex-direction: column; justify-content: center">
+
+            <div  s class="col-lg-12 wow fadeInRight" data-wow-delay=".3s">
+                <div class="apply-form bxw">
                     <div class="text-center">
-                        <h2>Become a member of Tanfwa.</h2>
-
-                        <!--              important-->
-                        <!--              <a href="#" class="load-more">Already a member <i class="ti-angle-right"></i></a>-->
+                        <h2>Sign in.</h2>
+                        <button onclick="handlePortal()" class="load-more">Go to Portal<i class="ti-angle-right"></i>
+                        </button>
                     </div>
-                    <form action="#">
-                            <div class="col-md-12 mt20">
-                                <div class="quote2" style="background-color: #fcb444" >
+                    <div  style="margin: 0px 100px 0px 100px " id ="jj">
+                        <form method="post" id="login-form" >
+                            <div class="row" id="message_container">
 
-                                    <a href="https://account.tanfwa.or.tz/application" style="color: white;">JOIN NOW</a> <br>
-                                </div>
                             </div>
-                            <!--                            <div class="col-md-12 mt20">-->
-                            <!--                                <a href="assets/img/tan/membership_fees.pdf">-->
-                            <!--                                    <div style="background: #fcb444; justify-content: center; align-items: center; display: flex ">-->
-                            <!--                                        Get membership fee form-->
-                            <!--                                    </div>-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="email" name="email" id="email" class="form-control"
+                                           placeholder="Email">
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="password" name="password" id="password" class="form-control"
+                                           placeholder="Password">
+                                </div>
 
-                            <!--                                </a>-->
-                            <!--                            </div>-->
+
+                            </div>
+                        </form>
+                        <div class="col-md-12 mt20">
+                            <button id="login-submit" class="btn-2" onclick=send_data()>Signin</button>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -414,6 +404,9 @@ background: #192836;">
 <script src="assets/js/jquery.counterup.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/custom.js"></script>
+<script src="assets/js/signin.js"></script>
+<script src="assets/js/validate.js"></script>
+<script src="assets/js/auth.js"></script>
 </body>
 
 

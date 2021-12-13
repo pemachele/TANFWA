@@ -1247,6 +1247,9 @@ nav li > a:only-child:before {
 .slider-bg-4 {
     background: url(../img/slider45.png) no-repeat center center/cover
 }
+.slider-bg-banner {
+    background: url(../img/tan/banner.png) no-repeat center center/cover
+}
 
 .slider h2 {
     color: #fff;
@@ -2743,7 +2746,7 @@ nav li > a:only-child:before {
 }
 
 .course-item-content {
-    padding: 25px 25px 50px;
+    padding: 25px 10px 10px;
     margin-bottom: 30px
 }
 
