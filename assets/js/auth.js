@@ -1,6 +1,11 @@
 const thePath = window.location.href;
 const path = thePath.substring(thePath.lastIndexOf("/") + 1);
 
+function handleLogin(path) {
+
+    localStorage.setItem('path',path)
+    window.location=`https://tanfwa.or.tz/signin.html`
+}
 
 function auth() {
 
@@ -19,17 +24,17 @@ function auth() {
                 "                                </div>")
 
         } else {
-            $('#download_con').replaceWith(" <div id=\"download_con\" >\n" +
-                "                                    <a href=\"signin.html\">\n" +
-                "\n" +
-                "                                        <div class=\"mt10 btn-2\"\n" +
-                "                                             style=\"background: #fcb444; justify-content: center; align-items: center; display: flex \">\n" +
-                "                                            login\n" +
-                "                                        </div>\n" +
-                "\n" +
-                "\n" +
-                "                                    </a>\n" +
-                "                                </div>")
+            $('#download_con').replaceWith(" <div  class=\"text-center\" id=\"banking-details-div\" >\n" +
+            "                                    <div class=\"text-center\" >\n" +
+            "\n" +
+            "                                        <button  onclick=\'handleLogin(\"constitution.html\")\' class=\"mt10 btn-2\"\n" +
+            "                                             >\n" +
+            "                                           SIGN IN\n" +
+            "                                        </button>\n" +
+            "\n" +
+            "\n" +
+            "                                    </div>\n" +
+            "                                </div>")
         }
 
     }else if ( path === "rules-and-regulations.html"){
@@ -47,16 +52,16 @@ function auth() {
                 "                                </div>")
 
         } else {
-            $('#download_rules').replaceWith(" <div id=\"download_rules\" >\n" +
-                "                                    <a href=\"signin.html\">\n" +
+            $('#download_rules').replaceWith(" <div  class=\"text-center\" id=\"banking-details-div\" >\n" +
+                "                                    <div class=\"text-center\" >\n" +
                 "\n" +
-                "                                        <div class=\"mt10 btn-2 \"\n" +
-                "                                             style=\"background: #fcb444; justify-content: center; align-items: center; display: flex \">\n" +
-                "                                            LOGIN\n" +
-                "                                        </div>\n" +
+                "                                        <button  onclick=\'handleLogin(\"rules-and-regulations.html\")\' class=\"mt10 btn-2\"\n" +
+                "                                             >\n" +
+                "                                           SIGN IN\n" +
+                "                                        </button>\n" +
                 "\n" +
                 "\n" +
-                "                                    </a>\n" +
+                "                                    </div>\n" +
                 "                                </div>")
         }
 
@@ -73,16 +78,16 @@ function auth() {
                 "                            </div>")
 
         } else {
-            $('#banking-details-div').replaceWith(" <div id=\"banking-details-div\" >\n" +
-                "                                    <a href=\"signin.html\">\n" +
+            $('#banking-details-div').replaceWith(" <div  class=\"text-center\" id=\"banking-details-div\" >\n" +
+                "                                    <div class=\"text-center\" >\n" +
                 "\n" +
-                "                                        <div class=\"mt10 btn-2\"\n" +
-                "                                             style=\"background: #fcb444; justify-content: center; align-items: center; display: flex \">\n" +
-                "                                            LOGIN\n" +
-                "                                        </div>\n" +
+                "                                        <button  onclick=\'handleLogin(\"banking-details.html\")\' class=\"mt10 btn-2\"\n" +
+                "                                             >\n" +
+                "                                           SIGN IN\n" +
+                "                                        </button>\n" +
                 "\n" +
                 "\n" +
-                "                                    </a>\n" +
+                "                                    </div>\n" +
                 "                                </div>")
         }
     }
@@ -90,11 +95,11 @@ function auth() {
     if ( path === "signin.html"){
 
         if (sessionStorage.getItem('token')) {
-            $('#jj').replaceWith(" <div> </div>")
+            $('#jj').replaceWith(" <div class=\"text-center\">   <div><button id=\"login-submit\" class=\"btn-2\" onclick='handlePortal()'>Dashboard</button></div> </div>")
 
         } else {
             $('#jj').replaceWith("" +
-                "<div   style=\"margin: 0px 100px 0px 100px\" id =\"jj\">\n" +
+                "<div  id =\"jj\">\n" +
                 "                        <form method=\"post\" id=\"login-form\" >\n" +
                 "                            <div class=\"row\" id=\"message_container\">\n" +
                 "\n" +

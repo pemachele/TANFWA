@@ -50,7 +50,15 @@ function send_data() {
 
                             }, 1)
                             $("#login-submit").prop('disabled', false)
-                            window.location = `https://account.tanfwa.or.tz/verify/${responseObject.session_id}`
+
+
+                            if(localStorage.getItem('path')) {
+                                window.location = `https://tanfwa.or.tz/${localStorage.getItem('path')}`
+                                localStorage.removeItem('path')
+                            }else{
+                               window.location=`https://account.tanfwa.or.tz/verify/${responseObject.session_id}`
+
+                            }
 
 
                         } else if (code === 300) {
