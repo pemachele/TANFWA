@@ -1251,6 +1251,11 @@ nav li > a:only-child:before {
     background: url(../img/tan/banner.png) no-repeat center center/cover
 }
 
+.slider-bg-team {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../img/tan/team-min.jpg) no-repeat center center/cover
+}
+
+
 .slider h2 {
     color: #fff;
     font-size: 40px
