@@ -407,64 +407,11 @@
 </div>
 
 
+
 <!--========================================================
                         GALLERY
 =========================================================-->
-<!--<section class="gallery pt10">-->
 
-<!--    <div class="gallery-carousel owl-carousel owl-theme wow fadeInUp" data-wow-delay=".4s">-->
-<!--        <div class="item">-->
-<!--            <img src="assets/img/tan/IMG_4796.JPG" style="height:200px" alt="">-->
-<!--            <div class="gallery-carousel-content">-->
-<!--                <a href="assets/img/tan/IMG_4796.JPG" data-fancybox><i class="ti-image"></i></a>-->
-<!--                <h3>Join us today</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            <img src="assets/img/tan/IMG_4630.JPG" style="height:200px" alt="">-->
-<!--            <div class="gallery-carousel-content">-->
-<!--                <a href="assets/img/tan/IMG_4630.JPG" data-fancybox><i class="ti-image"></i></a>-->
-
-<!--                <h3>Join us today</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            <img src="assets/img/tan/IMG_4536.JPG" style="height:200px" alt="">-->
-<!--            <div class="gallery-carousel-content">-->
-<!--                <a href="assets/img/tan/IMG_4536.JPG" data-fancybox><i class="ti-image"></i></a>-->
-<!--                <h3>Join us today</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            <img src="assets/img/tan/IMG_4811.JPG" style="height:200px" alt="">-->
-<!--            <div class="gallery-carousel-content">-->
-<!--                <a href="assets/img/tan/IMG_4811.JPG" data-fancybox><i class="ti-image"></i></a>-->
-<!--                <h3>Join us today</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            <img src="assets/img/tan/IMG_4498.JPG" style="height:200px" alt="">-->
-<!--            <div class="gallery-carousel-content">-->
-<!--                <a href="assets/img/tan/IMG_4498.JPG" data-fancybox><i class="ti-image"></i></a>-->
-<!--                <h3>Join us today</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            <img src="assets/img/tan/IMG_4740.JPG" style="height:200px" alt="">-->
-<!--            <div class="gallery-carousel-content">-->
-<!--                <a href="assets/img/tan/IMG_4740.JPG" data-fancybox><i class="ti-image"></i></a>-->
-<!--                <h3>Join us today</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="item">-->
-<!--            <img src="assets/img/tan/IMG_4770.JPG" style="height:200px" alt="">-->
-<!--            <div class="gallery-carousel-content">-->
-<!--                <a href="assets/img/tan/IMG_4770.JPG" data-fancybox><i class="ti-image"></i></a>-->
-<!--                <h3>Join us today</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 
 
 <!--==============================
@@ -507,14 +454,15 @@
                 <div class="footer-subscribe bxw2 wow fadeInUp" data-wow-delay=".2s">
                     <div class="row">
                         <div class="col-md-5">
-                            <div class="input-group bxw2">
-                                <!--                                <input type="text" class="form-control" placeholder="Subscribe to our newsletter">-->
-                                <div class="input-group-append">
-                                    <a href="./apply.html" class="btn-1 wow fadeInUp" data-wow-delay=".5s">Become a
-                                        member</a>
-                                    <!--                                    <button   class="input-group-text" style=" border-radius:20px; height:100px;width: 100% " >Become a member </button>-->
+                            <form onsubmit="subscribe()">
+                                <div class="input-group bxw2">
+
+                                    <input required="" id="subscriber_email" type="text" class="form-control" placeholder="Subscribe to our newsletter">
+                                    <div  id="button-load-container" class="input-group-append">
+                                        <button type="submit" id="subscribe-button" class="input-group-text">Register</button>
+                                    </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                         <div class="col-md-7">
                             <div class="footer-subscribe-content">
@@ -657,7 +605,7 @@
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/auth.js"></script>
-
+<script src="assets/js/utilities.js"></script>
 
 </body>
 

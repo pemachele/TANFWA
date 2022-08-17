@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e4c3afb-29e6-41e9-bec1-59247b4d3638" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/banking-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constitution.html" beforeDir="false" afterPath="$PROJECT_DIR$/constitution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact2.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copyright-advice.html" beforeDir="false" afterPath="$PROJECT_DIR$/copyright-advice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fliers.html" beforeDir="false" afterPath="$PROJECT_DIR$/fliers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership-benefits.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-benefits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membership-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mission-and-vision.html" beforeDir="false" afterPath="$PROJECT_DIR$/mission-and-vision.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objectives.html" beforeDir="false" afterPath="$PROJECT_DIR$/objectives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules-and-regulations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules-and-regulations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writing-and-publishing-tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/writing-and-publishing-tips.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +27,12 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -104,6 +97,7 @@
       <workItem from="1641365736533" duration="15143000" />
       <workItem from="1642151684446" duration="2067000" />
       <workItem from="1642270411070" duration="2663000" />
+      <workItem from="1660667979728" duration="5952000" />
     </task>
     <servers />
   </component>
