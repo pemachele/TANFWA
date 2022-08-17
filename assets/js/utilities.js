@@ -15,11 +15,7 @@ function subscribe(){
             "  <span class=\"sr-only\">Loading...</span>\n" +
             "</div>"
         );
-        Swal.fire(
-            'Good job!',
-            'You clicked the button!',
-            'success'
-        )
+
 
         $.ajax(
             {
@@ -62,7 +58,11 @@ function subscribe(){
             }
         )
     }else{
-        console.log("invalid email")
+        $("#button-load-container" ).empty();
+
+        $("#button-load-container" ).append(
+            " <button type=\"submit\" id=\"subscribe-button\" class=\"input-group-text\">Register</button>"
+        );
     }
 
 
