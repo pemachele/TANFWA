@@ -1244,6 +1244,10 @@ nav li > a:only-child:before {
     background: url(../img/tan/IMG_4496.JPG) no-repeat center center/cover
 }
 
+.banner-bg-1 {
+    background: url(../img/tan/banner-min.png) no-repeat center center/cover
+}
+
 .slider-bg-4 {
     background: url(../img/slider45.png) no-repeat center center/cover
 }
