@@ -1245,7 +1245,7 @@ nav li > a:only-child:before {
 }
 
 .banner-bg-1 {
-    background: url(../img/tan/banner-min.png) no-repeat center center/cover
+    background: url(../img/tan/banner.png) no-repeat center center/cover
 }
 
 .slider-bg-4 {
@@ -1253,6 +1253,9 @@ nav li > a:only-child:before {
 }
 .slider-bg-banner {
     background: url(../img/tan/banner.png) no-repeat center center/cover
+}
+.banner-mobile{
+    background-color:'#e8e6db' ;
 }
 
 .slider-bg-team {
