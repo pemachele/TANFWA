@@ -1249,6 +1249,21 @@ nav li > a:only-child:before {
     background: url(../img/tan/IMG_4496.JPG) no-repeat center center/cover
 }
 
+.slider-bg-aris {
+    background: url(../img/tan/African_Organizations.jpg) no-repeat center center/cover
+} 
+
+.slider-bg-aris-2 {
+    background: url(../img/tan/Aris_Maro_presenting_a_paper_at_PAWS_March_2023.jpg) no-repeat center center/cover
+} 
+
+.slider-bg-aris-3 {
+    background: url(../img/tan/IAF_and_PAWS.jpg) no-repeat center center/cover
+}
+
+.slider-bg-aris-4 {
+    background: url(../img/tan/Q&A_at_PAWS_at_Cape_Town_SA.jpg) no-repeat center center/cover
+}
 @media only screen and (min-width: 600px) {
     .banner-bg-1 {
         background: url(../img/tan/banner.png) no-repeat center center/cover ;
