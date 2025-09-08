@@ -177,9 +177,43 @@
                 <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 800px; margin: auto;">
                     
                     <!-- Image Banner Replacement -->
-<div class="wow fadeInUp" data-wow-delay=".3s" style="margin-bottom: 30px;">
-    <img src="assets/img/bannernews.jpeg" alt="PAWS 2025 Conference Banner" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px;">
+<div class="wow fadeInUp banner-container" data-wow-delay=".3s" style="margin: 0 -30px 30px -30px; width: calc(100% + 340px);">
+    <!-- Desktop Image -->
+    <img src="assets/img/bannernews.jpeg" alt="PAWS 2025 Conference Banner" 
+         class="desktop-banner" 
+         style="width: 100%; height: auto; min-height: 400px; object-fit: contain; display: block;">
+    
+    <!-- Mobile Image -->
+    <img src="assets/img/news mobile1.png" alt="PAWS 2025 Conference Banner Mobile" 
+         class="mobile-banner" 
+         style="width: 100%; height: auto; min-height: 300px; object-fit: contain; display: none;">
 </div>
+
+<style>
+    /* Mobile Responsive Styles */
+    @media (max-width: 768px) {
+        .desktop-banner {
+            display: none !important;
+        }
+        .mobile-banner {
+            display: block !important;
+        }
+        .banner-container {
+            margin: 0 -15px 30px -15px !important;
+            width: calc(100% + 30px) !important;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .banner-container {
+            margin: 0 -10px 30px -10px !important;
+            width: calc(100% + 20px) !important;
+        }
+        .mobile-banner {
+            min-height: 250px !important;
+        }
+    }
+</style>
 
 <!-- Essential Info Below Banner -->
 <!-- <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 20px;">
@@ -202,9 +236,9 @@
     </div>
 </div> -->
 <div style="margin-top: 20px;">
-    <a href="mailto:info@tanfwa.or.tz" class="btn-2 wow fadeInUp" data-wow-delay=".5s" 
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSehJsCznkNwfpVNGXubjWmZwDV6rwdLe_7jsiQm1MRcUF5hqw/viewform?usp=dialog" target="_blank" class="btn-2 wow fadeInUp" data-wow-delay=".5s" 
        style="background-color: #fcb444; color: black; padding: 12px 24px; border-radius: 5px; font-weight: bold; text-decoration: none; display: inline-block;">
-        SUBMIT ABSTRACT
+        SECURE YOUR PLACE NOW
     </a>
 </div>
                     
