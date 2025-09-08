@@ -177,40 +177,46 @@
                 <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 800px; margin: auto;">
                     
                     <!-- Image Banner Replacement -->
-<div class="wow fadeInUp banner-container" data-wow-delay=".3s" style="margin: 0 -30px 30px -30px; width: calc(100% + 340px);">
-    <!-- Desktop Image -->
-    <img src="assets/img/bannernews.jpeg" alt="PAWS 2025 Conference Banner" 
-         class="desktop-banner" 
-         style="width: 100%; height: auto; min-height: 400px; object-fit: contain; display: block;">
-    
-    <!-- Mobile Image -->
-    <img src="assets/img/news mobile1.png" alt="PAWS 2025 Conference Banner Mobile" 
-         class="mobile-banner" 
-         style="width: 100%; height: auto; min-height: 300px; object-fit: contain; display: none;">
-</div>
+<div class="wow fadeInUp responsive-banner" data-wow-delay=".3s" style="margin: 0 -30px 30px -30px; width: calc(100% + 340px); height: 500px; background: url('assets/img/bannernews.jpeg') no-repeat center center/cover; border-radius: 8px;"></div>
 
 <style>
+    /* Responsive Banner - Like team-min.jpg approach */
+    .responsive-banner {
+        background: url('assets/img/bannernews.jpeg') no-repeat center center/cover;
+        height: 500px;
+        width: 100%;
+        border-radius: 8px;
+    }
+    
     /* Mobile Responsive Styles */
     @media (max-width: 768px) {
-        .desktop-banner {
-            display: none !important;
-        }
-        .mobile-banner {
-            display: block !important;
-        }
-        .banner-container {
+        .responsive-banner {
+            background: url('assets/img/news mobile1.png') no-repeat center center/cover;
+            height: 400px;
             margin: 0 -15px 30px -15px !important;
             width: calc(100% + 30px) !important;
         }
     }
     
     @media (max-width: 480px) {
-        .banner-container {
+        .responsive-banner {
+            height: 300px;
             margin: 0 -10px 30px -10px !important;
             width: calc(100% + 20px) !important;
         }
-        .mobile-banner {
-            min-height: 250px !important;
+    }
+    
+    /* Extra small screens */
+    @media (max-width: 320px) {
+        .responsive-banner {
+            height: 250px;
+        }
+    }
+    
+    /* Landscape mobile optimization */
+    @media (max-width: 768px) and (orientation: landscape) {
+        .responsive-banner {
+            height: 300px;
         }
     }
 </style>
