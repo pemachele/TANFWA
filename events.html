@@ -18,10 +18,18 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
         .event-banner {
-            background: linear-gradient(rgba(25, 40, 54, 0.8), rgba(25, 40, 54, 0.8)), url('assets/img/event-bg.jpg') center/cover no-repeat;
-            padding: 100px 0;
+            /* Solid background, image is shown via <img> to avoid cropping */
+            background: #192836;
+            padding: 40px 0 60px;
             color: white;
             text-align: center;
+        }
+
+        .event-banner-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 25px;
         }
         
         .event-banner h1 {
@@ -364,6 +372,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                    <img src="assets/img/bannernews_old.jpeg" alt="PAWS 2025 Conference Banner" class="event-banner-img">
                     <h1>PAN AFRICAN WRITERS SYMPOSIUM (PAWS)</h1>
                     <p class="lead">2nd–3rd October 2025 | University of Dar es Salaam Library – Main Campus</p>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSehJsCznkNwfpVNGXubjWmZwDV6rwdLe_7jsiQm1MRcUF5hqw/viewform?usp=dialog" target="_blank" class="register-btn">Register Now</a>
