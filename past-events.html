@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta tag -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/img/standard.png" type="image/x-icon">
     <!-- Title tag -->
-    <title>TANFWA Events</title>
+    <title>TANFWA Past Events</title>
     <!-- css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
@@ -18,7 +17,6 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <style>
         .event-banner {
-            /* Solid background, image is shown via <img> to avoid cropping */
             background: #192836;
             padding: 40px 0 60px;
             color: white;
@@ -33,22 +31,21 @@
             border-radius: 8px;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
         }
-        
+
         .event-banner h1 {
-            font-size: 3.5rem;
+            font-size: 3rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
-        
+
         .event-banner .lead {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             font-weight: 500;
-            margin-bottom: 30px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
         }
-        
+
         .event-card {
             border-radius: 12px;
             overflow: hidden;
@@ -56,238 +53,75 @@
             margin-bottom: 40px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        
+
         .event-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
         }
-        
+
         .event-header {
             background-color: #fcb444;
             color: #192836;
             padding: 25px 30px;
         }
-        
+
         .event-header h2 {
-            font-size: 2.2rem;
+            font-size: 2.1rem;
             font-weight: 700;
             margin: 0;
         }
-        
-        .event-header h3 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            margin: 0;
-        }
-        
+
         .event-body {
             padding: 35px;
             background: white;
             font-size: 1.1rem;
             line-height: 1.7;
         }
-        
-        .event-body h3 {
-            font-size: 1.6rem;
-            font-weight: 600;
-            color: #192836;
-            margin: 25px 0 15px 0;
-            border-bottom: 2px solid #fcb444;
-            padding-bottom: 8px;
-        }
-        
-        .event-body h4 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #192836;
-            margin: 20px 0 10px 0;
-        }
-        
-        .event-body h5 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #192836;
-            margin: 15px 0 8px 0;
-        }
-        
-        .event-body p {
-            font-size: 1.1rem;
-            line-height: 1.7;
-            margin-bottom: 20px;
-            color: #333;
-        }
-        
-        .event-body strong {
-            font-weight: 700;
-            color: #192836;
-        }
-        
+
         .event-date {
             background: #192836;
             color: white;
-            padding: 15px 20px;
+            padding: 12px 18px;
             display: inline-block;
             border-radius: 8px;
             margin-bottom: 20px;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             font-weight: 600;
         }
-        
+
         .subtheme-list {
             list-style-type: none;
             padding-left: 0;
             margin-bottom: 25px;
         }
-        
+
         .subtheme-list li {
             background: #f8f9fa;
-            padding: 12px 20px;
-            margin-bottom: 10px;
+            padding: 10px 16px;
+            margin-bottom: 8px;
             border-radius: 6px;
             border-left: 4px solid #fcb444;
-            font-size: 1.1rem;
-            font-weight: 500;
-            color: #333;
-        }
-        
-        .register-btn {
-            background: #fcb444;
-            color: #192836;
-            padding: 15px 35px;
-            border-radius: 35px;
-            display: inline-block;
-            font-weight: 700;
-            font-size: 1.2rem;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            box-shadow: 0 4px 15px rgba(252, 180, 68, 0.3);
-        }
-        
-        .register-btn:hover {
-            background: #192836;
-            color: #fcb444;
-            text-decoration: none;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(25, 40, 54, 0.4);
-        }
-        
-        .participants-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-            margin: 25px 0;
-        }
-        
-        .participant-item {
-            background: #f8f9fa;
-            padding: 15px 20px;
-            border-radius: 8px;
-            border-left: 4px solid #fcb444;
-            font-size: 1.1rem;
-            font-weight: 500;
-            color: #333;
-            transition: all 0.3s ease;
-        }
-        
-        .participant-item:hover {
-            background: #e9ecef;
-            transform: translateX(5px);
         }
 
         .past-event-img {
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 0 auto 15px;
-            border-radius: 6px;
-        }
-        
-        .mb-4 {
-            margin-bottom: 2rem !important;
-        }
-        
-        .mb-3 {
-            margin-bottom: 1.5rem !important;
-        }
-        
-        .mt-4 {
-            margin-top: 2rem !important;
-        }
-        
-        .mt-3 {
-            margin-top: 1.5rem !important;
-        }
-        
-        .text-center {
-            text-align: center !important;
-        }
-        
-        .btn-outline-primary {
-            border: 2px solid #fcb444;
-            color: #fcb444;
-            padding: 10px 20px;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-        
-        .btn-outline-primary:hover {
-            background: #fcb444;
-            color: white;
-            border-color: #fcb444;
-        }
-        
-        .btn-sm {
-            font-size: 0.9rem;
-            padding: 8px 16px;
-        }
-        
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            .event-banner h1 {
-                font-size: 2.5rem;
-            }
-            
-            .event-banner .lead {
-                font-size: 1.2rem;
-            }
-            
-            .event-header h2 {
-                font-size: 1.8rem;
-            }
-            
-            .event-header h3 {
-                font-size: 1.5rem;
-            }
-            
-            .event-body {
-                padding: 25px;
-                font-size: 1rem;
-            }
-            
-            .event-body h3 {
-                font-size: 1.4rem;
-            }
-            
-            .participants-grid {
-                grid-template-columns: 1fr;
-                gap: 15px;
-            }
+            margin: 0 auto 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
         }
     </style>
 </head>
-
 <body>
-    <!--=======================================================
-                        HEADER
-    =========================================================-->
+    <!-- HEADER (copied from events.html for consistency) -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-lg-2">
                     <div class="logo">
                         <a href="index.html">
-                            <img class="logo-new" src="assets/img/FINAL_LOGO_B-03.png" style="" alt="">
+                            <img class="logo-new" src="assets/img/FINAL_LOGO_B-03.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -334,7 +168,7 @@
                                     <li><a href="signin.html">Register here</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact2.html">Contact</a> </li>
+                            <li><a href="contact2.html">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="mobile-menu">
@@ -360,137 +194,92 @@
         </div>
     </header>
 
-    <!--========================================================
-                        BREADCRUMB
-    =========================================================-->
+    <!-- BREADCRUMB -->
     <section class="breadcrumb" style="padding: 50px; background: #192836;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 breadcrumb-custom">
                     <h1 style="color:#fcb444;">
-                        EVENTS
+                        PAST EVENTS
                     </h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--========================================================
-                        EVENT BANNER
-    =========================================================-->
-    <section class="event-banner" id="upcoming">
+    <!-- PAST EVENTS BANNER (PAWS 2025) -->
+    <section class="event-banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow fadeInUp" data-wow-delay=".3s">
-                    <img src="assets/img/bannernews.jpeg" alt="Copyright seminar for Authors, Publishers and Users" class="event-banner-img">
-                    <h1>Copyright seminar for Authors, Publishers and Users</h1>
-                    <p class="lead">Organised by Tanzania Reproduction Rights Society Ltd (TANRRS)</p>
+                    <img src="assets/img/bannernews_old.jpeg" alt="PAWS 2025 Symposium Banner" class="event-banner-img">
+                    <h1>PAWS 2025 Symposium</h1>
+                    <p class="lead">Pan African Writers Symposium hosted in Dar es Salaam, Tanzania</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--========================================================
-                        EVENT DETAILS
-    =========================================================-->
+    <!-- PAST EVENT DETAILS -->
     <section class="mt100 mb100">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 wow fadeInUp" data-wow-delay=".3s">
                     <div class="event-card">
                         <div class="event-header">
-                            <h2>Copyright seminar for Authors, Publishers and Users</h2>
+                            <h2>About PAWS 2025</h2>
                         </div>
                         <div class="event-body">
                             <div class="event-date">
-                                <i class="ti-calendar"></i> 11<sup>th</sup> March 2026
-                                <i class="ti-location-pin" style="margin-left: 15px;"></i> Eco Sanaa Hub
+                                <i class="ti-calendar"></i> October 2-3, 2025
+                                <i class="ti-location-pin" style="margin-left: 15px;"></i> University of Dar es Salaam Library, Main Campus
                             </div>
                             <p>
-                                Tanzania Reproduction Rights Society Ltd (TANRRS) in collaboration with key
-                                stakeholders is hosting a one–day copyright seminar dedicated to authors, publishers
-                                and users of copyrighted works.
+                                Tanzania Academic and Non-Fiction Writers' Association (TANFWA) with support from
+                                Non-Fiction and Translators Association of Norway (NFF) and International Authors'
+                                Forum (IAF) hosted the 4th Pan African Writers Symposium (PAWS).
                             </p>
 
-                            <h3>Key topics</h3>
+                            <h3>Theme</h3>
+                            <p><strong>"Harnessing New and Emerging Technologies for Sustainable Publishing Industry Development in Africa"</strong></p>
+
+                            <h3>Subthemes</h3>
                             <ul class="subtheme-list">
-                                <li>The Copyright Act</li>
-                                <li>Protection of copyright</li>
-                                <li>Piracy and Infringement of Copyright</li>
-                                <li>Collective Management and Tariffs</li>
+                                <li>Navigating the New Frontiers</li>
+                                <li>Copyright and AI on Authors' Rights</li>
+                                <li>Academic Authorship Landscape in Africa</li>
+                                <li>Capacity Building and Authorship Transformation in Africa</li>
                             </ul>
 
-                            <h3>Who should attend?</h3>
-                            <div class="participants-grid">
-                                <div class="participant-item">Authors and writers</div>
-                                <div class="participant-item">Publishers</div>
-                                <div class="participant-item">Librarians and information professionals</div>
-                                <div class="participant-item">Educators and researchers</div>
-                                <div class="participant-item">Copyright administrators</div>
-                                <div class="participant-item">Creative industry stakeholders</div>
-                            </div>
-
-                            <h3>Stakeholders</h3>
+                            <h3>Participants and Organizations</h3>
                             <p>
-                                The seminar is organised with the support and participation of key partners such as
-                                PATA, COSOTA, COSOZA and TANFWA, among others, working together to strengthen
-                                awareness and enforcement of copyright in Tanzania.
+                                PAWS 2025 brought together authors, publishers, booksellers, editors, translators,
+                                illustrators, academics, policy makers, researchers, teachers, artists, designers,
+                                librarians and other stakeholders from across Africa and beyond. Key institutions
+                                included ministries responsible for education, copyright offices, publishers'
+                                associations and writers' organizations.
                             </p>
-
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-4 wow fadeInUp" data-wow-delay=".5s" id="past-events">
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay=".5s">
                     <div class="event-card">
                         <div class="event-header">
-                            <h3>Past Event: PAWS 2025 Symposium</h3>
+                            <h3>Event Snapshot</h3>
                         </div>
                         <div class="event-body">
-                            <img src="assets/img/bannernews_old.jpeg" alt="PAWS 2025 Symposium Banner" class="past-event-img">
                             <div class="mb-4">
                                 <h4><i class="ti-timer"></i> Date & Time</h4>
                                 <p>October 2-3, 2025<br>8:00 AM - 5:00 PM EAT Daily</p>
                             </div>
-                            
                             <div class="mb-4">
                                 <h4><i class="ti-location-pin"></i> Venue</h4>
                                 <p>University of Dar es Salaam Library<br>Main Campus<br>Dar es Salaam, Tanzania</p>
                             </div>
-                            
                             <div class="mb-4">
-                                <h4><i class="ti-money"></i> Registration Fee</h4>
-                                <p>TANFWA Members: Free<br>Non-Members: TZS 50,000<br>International Participants: $50</p>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <h4><i class="ti-email"></i> Contact</h4>
-                                <p>Email: events@tanfwa.org.tz<br>Phone: +255 733 009 996</p>
-                            </div>
-                            
-                            <!-- Brochure download button removed as requested -->
-                        </div>
-                    </div>
-                    
-                    <div class="event-card mt-4">
-                        <div class="event-header">
-                            <h3>Other Events</h3>
-                        </div>
-                        <div class="event-body">
-                            <div class="mb-3">
-                                <h5>Authors Workshop</h5>
-                                <p><small>November 15, 2025</small></p>
-                            </div>
-                            <div class="mb-3">
-                                <h5>Copyright Seminar</h5>
-                                <p><small>December 5, 2025</small></p>
-                            </div>
-                            <div class="mb-3">
-                                <h5>Annual General Meeting</h5>
-                                <p><small>January 20, 2026</small></p>
-                            </div>
-                            <div class="text-center mt-3">
-                                <a href="#" class="btn btn-outline-primary btn-sm">View All Events</a>
+                                <h4><i class="ti-money"></i> Participation</h4>
+                                <p>TANFWA Members, invited guests and international delegates from several African countries.</p>
                             </div>
                         </div>
                     </div>
@@ -499,9 +288,7 @@
         </div>
     </section>
 
-    <!--========================================================
-                          FOOTER
-    =========================================================-->
+    <!-- FOOTER (same as events.html) -->
     <footer class="pt80">
         <div class="container">
             <div class="row">
@@ -571,6 +358,7 @@
                         <li class="wow fadeInDown" data-wow-delay=".4s"><a href="membership-options.html"><i class="ti-angle-right"></i> My Account</a></li>
                     </ul>
                 </div>
+
             </div>
         </div>
         <div class="footer-bar">
@@ -592,20 +380,6 @@
         </div>
     </footer>
 
-    <!--========================================================
-                      Loader and toTop
-    =========================================================-->
-    <div id="preloader">
-        <div class="preloader">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-    <div id="toTop">
-        <i class="ti-arrow-up"></i>
-    </div>
-
     <!-- js -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -618,3 +392,4 @@
     <script src="assets/js/custom.js"></script>
 </body>
 </html>
+
